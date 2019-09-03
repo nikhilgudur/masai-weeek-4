@@ -1,0 +1,44 @@
+body {
+    background: paleturquoise;
+}
+h1 {
+    text-align: center;
+    border-bottom: 5px solid green;  
+}
+#fl {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#values {
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+    margin-top: 100px
+}
+
+#values input {
+    width: 250px;
+    margin-top: 30px
+}
+
+
+
+.show1, .show2{
+    width: 250px;
+    height: 50px;
+    background: bisque;
+    font-weight: bold;
+    box-shadow: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+
+#add, #calc {
+    width: 20px;
+}
+
+
